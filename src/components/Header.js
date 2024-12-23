@@ -17,7 +17,7 @@ function Header() {
             <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
             <Button bg='#ff0099' color='#fff' padding='1em 3em'>Get Started For Free</Button>
           </Content>
-          <Image src={mock}/>
+          <Image src={mock} alt="mock-up-illustration"/>
         </Flex>
     </StyledHeader>
   )
