@@ -7,7 +7,7 @@ export const StyledCard = styled.div`
   background-color: ${({ theme }) => theme.colors.body};
   border-radius: 1rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-  margin: 2.5em 0;
+  margin: 3em 0;
   text-align: center;
   padding: 2.5em;
   gap: 1rem;

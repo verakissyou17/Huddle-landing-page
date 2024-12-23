@@ -2,14 +2,14 @@ import styled from 'styled-components';
 
 export const StyledHeader = styled.header`
   background-color: ${({ theme }) => theme.colors.header};
-  background-image: url('./images/bg-hero-mobile.svg');
+  background-image: url("../../images/icon-location.svg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 1em;
 
   @media (min-width: ${({ theme }) => theme.desktop}) {
     background-image: url('./images/bg-hero-desktop.svg');
-    padding: 1.5em 5em 4em;
+    padding: 3em 5em 4em;
   }
 `;
 
@@ -21,7 +21,10 @@ export const Nav = styled.nav`
 `;
 
 export const Logo = styled.img`
-  width: 20%;
+  width: 100px;
+  @media (min-width: ${({ theme }) => theme.desktop}) {
+   width: 200px;
+  }
 `;
 
 export const Content = styled.div`
