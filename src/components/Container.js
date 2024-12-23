@@ -5,7 +5,7 @@ import { StyledContainer } from './styles/Container.styled.js';
 
 function Container() {
   return (
-    <StyledContainer>
+    <StyledContainer role='page'>
       <Header />
       <Main />
       <Footer />

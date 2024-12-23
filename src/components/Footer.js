@@ -10,7 +10,7 @@ import emailIcon from '../images/icon-email.svg';
 function Footer() {
   const currentYear = new Date().getFullYear();
   return (
-    <StyleFooter>
+    <StyleFooter role='footer'>
       <WhiteBox />
       <img src={whiteLogo} alt="white-logo" />
       <Flex>
