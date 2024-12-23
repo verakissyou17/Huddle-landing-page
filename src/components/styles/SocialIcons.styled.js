@@ -28,6 +28,10 @@ export const StyledSocialIcons = styled.ul`
     border-color: ${({theme}) => theme.projectColors.Pink};
   }
 
+  span {
+    display: none;
+  }
+
   @media (min-width: ${({theme}) => theme.desktop}) {
     align-self: flex-start;
   } 
