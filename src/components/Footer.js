@@ -28,7 +28,7 @@ function Footer() {
           </li>
           <li>
             <img src={emailIcon} alt="email-icon" />
-            <a href="#">example@huddle.com</a>
+            <p>example@huddle.com</p>
           </li>
         </ul>
         <ul>

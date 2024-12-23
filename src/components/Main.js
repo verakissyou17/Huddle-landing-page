@@ -3,7 +3,6 @@ import Card  from './Card.js';
 import { StyledMain } from './styles/Main.styled.js';
 
 function Main() {
-  content.map(item => console.log(item.id))
   return (
     <StyledMain>
          {content.map((item, index) => {

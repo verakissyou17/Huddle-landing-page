@@ -11,7 +11,7 @@ export default function SocialIcons() {
           aria-label="Twitter"
           rel="noopener noreferrer"
           target='_blank'
-          tabindex="0"
+          tabIndex={0}
         >
               <FaTwitter />
               <span aria-hidden="true"> Twitter</span>
@@ -23,7 +23,7 @@ export default function SocialIcons() {
           aria-label="Facebook"
           rel="noopener noreferrer"
           target='_blank'
-          tabindex="0"
+          tabIndex={0}
         >
             <FaFacebook />
             <span aria-hidden="true"> Facebook</span>
@@ -32,10 +32,10 @@ export default function SocialIcons() {
       <li>
         <a
           href="https://linkedin.com"
-          aria-label="Linkedin"
+          aria-label='Linkedin'
           rel="noopener noreferrer"
           target='_blank'
-          tabindex="0"
+          tabIndex={0}
         >
            <FaLinkedin />
            <span aria-hidden="true"> LinkedIn</span>
