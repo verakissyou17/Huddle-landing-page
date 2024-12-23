@@ -4,7 +4,7 @@ import { StyledMain } from './styles/Main.styled.js';
 
 function Main() {
   return (
-    <StyledMain role='main'>
+    <StyledMain>
          {content.map((item, index) => {
         return  <Card key={index} item={item}/>
         })}

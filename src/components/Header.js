@@ -6,7 +6,7 @@ import mock from "../images/illustration-mockups.svg";
 
 function Header() {
   return (
-    <StyledHeader role='header'>
+    <StyledHeader>
         <Nav>
           <Logo src={logo} alt="logo" />
           <Button pd="0.5em 2em">Try It Free</Button>
