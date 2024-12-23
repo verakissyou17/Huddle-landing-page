@@ -8,7 +8,7 @@ export const Button = styled.button`
   font-size: 1rem;
   font-weight: bold;
   font-family: ${({ theme }) => theme.fonts.secondary};
-  padding: ${({ padding }) => padding};
+  padding: ${({ pd }) => pd};
   background-color: ${({ bg }) => bg || '#fff'};
   color: ${({ color }) => color || '#333'};
 

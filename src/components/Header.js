@@ -9,7 +9,7 @@ function Header() {
     <StyledHeader>
         <Nav>
           <Logo src={logo} alt="logo" />
-          <Button padding="0.5em 2em">Try It Free</Button>
+          <Button pd="0.5em 2em">Try It Free</Button>
         </Nav>
         <Flex>
         <Content>

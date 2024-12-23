@@ -13,7 +13,7 @@ export default function SocialIcons() {
           target='_blank'
           tabindex="0"
         >
-              <FaTwitter alt="Twitter icon" />
+              <FaTwitter />
               <span aria-hidden="true"> Twitter</span>
         </a>
       </li>
@@ -25,7 +25,7 @@ export default function SocialIcons() {
           target='_blank'
           tabindex="0"
         >
-            <FaFacebook alt="Facebook icon" />
+            <FaFacebook />
             <span aria-hidden="true"> Facebook</span>
         </a>
       </li>
@@ -37,7 +37,7 @@ export default function SocialIcons() {
           target='_blank'
           tabindex="0"
         >
-           <FaLinkedin alt="LinkedIn icon" />
+           <FaLinkedin />
            <span aria-hidden="true"> LinkedIn</span>
         </a>
       </li>
