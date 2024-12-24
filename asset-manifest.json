@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/Huddle-landing-page/static/js/main.2502ff44.js",
+    "main.js": "/Huddle-landing-page/static/js/main.d52bf364.js",
     "static/media/FireShot Capture 001 - React App - localhost.png": "/Huddle-landing-page/static/media/FireShot Capture 001 - React App - localhost.ddc483a918d7dcf17976.png",
     "static/media/illustration-flowing-conversation.svg": "/Huddle-landing-page/static/media/illustration-flowing-conversation.447b9b47aef8c266f047.svg",
     "static/media/illustration-your-users.svg": "/Huddle-landing-page/static/media/illustration-your-users.c07ebfaafd557ff00fa4.svg",
@@ -14,9 +14,9 @@
     "static/media/icon-phone.svg": "/Huddle-landing-page/static/media/icon-phone.43c05d1a510cada2b8f305cbb2278ae4.svg",
     "static/media/icon-location.svg": "/Huddle-landing-page/static/media/icon-location.a681f02d94e561498fa0781c3538edac.svg",
     "static/media/icon-email.svg": "/Huddle-landing-page/static/media/icon-email.19ab894b09784943bec7e08b3e1344a3.svg",
-    "main.2502ff44.js.map": "/Huddle-landing-page/static/js/main.2502ff44.js.map"
+    "main.d52bf364.js.map": "/Huddle-landing-page/static/js/main.d52bf364.js.map"
   },
   "entrypoints": [
-    "static/js/main.2502ff44.js"
+    "static/js/main.d52bf364.js"
   ]
 }
