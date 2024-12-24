@@ -14,18 +14,14 @@ export const StyledWhiteBox = styled.div`
   transform: translateY(-50%);
 
   h3 {
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
     color: black;
     font-size: 1rem;
   }
 
-  button {
-    margin-bottom: 1em
-  }
-
   @media(min-width: ${({theme}) => theme.desktop}) {
-    padding: 2em;
-    width: 40%;
-    right: 30%;
+    padding: 4em;
+    width: 60%;
+    right: 20%;
   }
 `
