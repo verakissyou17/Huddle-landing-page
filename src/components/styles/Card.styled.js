@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
-export const StyledCard = styled.div`
+export const StyledCard = styled.div.withConfig({
+  shouldForwardProp: (prop) => prop !== "layout"
+})`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -31,7 +33,7 @@ export const StyledCard = styled.div`
   }
 
   @media (min-width: ${({ theme }) => theme.desktop}) {
-    flex-direction: ${({ layout }) => layout || 'row'};
+    flex-direction: ${({ $layout }) => $layout || 'row'};
     padding: 60px;
     text-align: left;
   }

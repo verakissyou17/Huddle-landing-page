@@ -19,7 +19,7 @@ const theme = {
     main: 'Poppins, sans-serif',
     secondary: 'Open Sans, sans-serif'
   },
-  desktop: '768px'
+  desktop: '768px',
 };
 
 // App component
