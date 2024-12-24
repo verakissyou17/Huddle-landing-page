@@ -5,7 +5,7 @@ export const StyledHeader = styled.header`
   background-image: url("../../images/icon-location.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 1em;
+  padding: 2em 1em 1em;
 
   @media (min-width: ${({ theme }) => theme.desktop}) {
     background-image: url('./images/bg-hero-desktop.svg');
