@@ -17,7 +17,7 @@ export const Button = styled.button`
     transform: scale(0.98);
   }
   @media (min-width: ${({ theme }) => theme.desktop}) {
-    padding: 1em 3em;
+    padding: 0.75em 3em;
   }
 `;
 

@@ -1,15 +1,17 @@
 import styled from 'styled-components';
+import mobileBackground from '../../images/bg-hero-mobile.svg';
+import desktopBackground from '../../images/bg-hero-desktop.svg';
 
 export const StyledHeader = styled.header`
   background-color: ${({ theme }) => theme.colors.header};
-  background-image: url("../../images/icon-location.svg");
+  background-image: url(${mobileBackground});
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 2em 1em 1em;
+  padding: 2.5em 1em 1em;
 
   @media (min-width: ${({ theme }) => theme.desktop}) {
-    background-image: url('./images/bg-hero-desktop.svg');
-    padding: 3em 5em 4em;
+    background-image: url(${desktopBackground});
+    padding: 3.5em 5em 4em;
   }
 `;
 
