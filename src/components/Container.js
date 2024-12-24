@@ -5,7 +5,7 @@ import { StyledContainer } from './styles/Container.styled.js';
 
 function Container() {
   return (
-    <StyledContainer role='This the container that holds all the project'>
+    <StyledContainer role='main'>
       <Header />
       <Main />
       <Footer />
