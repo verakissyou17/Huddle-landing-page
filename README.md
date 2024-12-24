@@ -12,7 +12,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./public/images/FireShot%20Capture%20001%20-%20React%20App%20-%20localhost.png)
+![](./src/images/FireShot%20Capture%20001%20-%20React%20App%20-%20localhost.png)
 
 ### Links
 
