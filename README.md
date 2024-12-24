@@ -16,8 +16,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/huddle-landing-page-zWqYsCAnLv)
-- Live Site URL: [Add live site URL here](https://verakissyou17.github.io/Huddle-landing-page/)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/huddle-landing-page-zWqYsCAnLv)
+- Live Site URL: [Live site URL](https://verakissyou17.github.io/Huddle-landing-page/)
 
 ### Built with
 
